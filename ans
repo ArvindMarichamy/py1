@@ -1,0 +1,645 @@
+EXPERIMENT-2:
+1)AIM:
+To Print hello world using command prompt.
+PROGRAM :
+Print(“Hello World”)
+2)AIM:
+To write a code to print hello world in notepad and run in command prompt
+PROGRAM:
+Print(“Hello World”)
+3)AIM :
+To write a python code to get student name and register number from user and print it
+PROGRAM:
+A=input(“Enter the student Name ”)
+B=int(input(“Enter the Register number ”))
+print(“Student Name is ” ,A)
+print(“Register number ”,B)
+4)AIM: 
+To perform basic math operators in python
+PROGRAM:
+a=5
+b=10
+print(a+b)
+print(a-b)
+print(b/a)
+print(a*b)
+print(a**2)
+print(b%a)
+print(b//a)
+5)AIM: 
+To get Two numbers from the user and perform the basic operations of python
+PROGRAM:
+a=int(input(“Enter the first number”))
+b=int(input(“Enter the second number”))
+print(“The sum of numbers”,a+b)
+print(“The subtraction of numbers”,a-b)
+print(“The division of two numbers”,b/a)
+print(“The multiplication of two numbers”, a*b)
+print(“A to the power of 2 is”a**2)
+print(b%a)
+print(b//a)
+6)AIM: 
+To find the data type of above data using python function type
+PROGRAM:
+type("hari")
+type(123)
+type(15.8)
+type("1212")
+type(True)
+type(False)
+type("True")
+7)AIM: 
+To assign values to the variables and check if its valid or not 
+PROGRAM:
+var@=1 
+345good=1 
+c_v_t=1
+rat_RAT=1
+T123=334
+R>>T=1
+r%rt=2
+race=2
+race_count3
+race_count_COUNT_START_%=2
+##race=23
+print=34
+PRINT=21
+false=32
+FALSE=214
+True=32
+def=213
+DEF=32
+Def=21 
+none=213
+9.AIM:
+To Use different String operations in python
+PROGRAM:
+a=“kane”
+b=”williamson”
+c=a+b
+print(c)
+print(c*3)
+
+EXPERIMENT-3:
+1)AIM:
+Display “Hai I am James” as “My Name Is James” using output formatting of a print () function
+CODE:
+name=input("Hai I am :")
+print("My Name is ", name)
+2)AIM:
+Print first 10 natural numbers using while loop 
+CODE:
+i=1
+while(i<=10):
+print(i,end=" ")
+i+=1
+3)AIM:
+Print the following pattern 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+CODE:
+for i in range(1,6):
+for j in range(1,i+1):
+print(j,end=" ")
+print()
+4)AIM:
+Accept numbers form the user and calculate the sum of all numbers between 1 and given 
+number. For example user given 10 so the output should be 55
+CODE: 
+n=int(input("Enter a number :"))
+sum=0
+for i in range(1,n+1):
+sum=sum+i
+print("The sum is:",sum)
+5)AIM:
+Print multiPlication table of given number 
+CODE:
+n=int(input("Enter a number :"))
+for i in range (1,11):
+print("{0} x {1} = {2}".format(i,n,n*i))
+6)AIM:
+Given a number count the total number of digits in number . For example , the number is 75969, so the 
+output should be 5
+CODE:
+n=int(input("Enter a number :"))
+digits=0
+while(n>0):
+digits+=1
+n//=10
+print("The no. of digits is: ",digits)
+7)AIM:
+Display -50 to -20 using for loop 
+CODE : 
+for i in range (-50,-19):
+print(i,end=" ")
+8)AIM:
+Perform add,sum,multiplication and division of two numbers using functions.
+CODE:
+a=int(input("Enter a number 1:"))
+b=int(input("Enter a number 2:"))
+def add(x,y):
+print("The sum of two numbers is :",x+y)
+def sub(x,y):
+print("The difference of two numbers is :",x-y)
+def product(x,y):
+print("The product of two numbers is :", x*y)
+def div(x,y):
+print("The division of two numbers is :",x//y)
+add(a,b)
+sub(a,b)
+product(a,b)
+div(a,b)
+9)AIM:
+Calculate the Fibonacci series of given number 
+CODE:
+n=int(input("Enter a number :"))
+def fibo(i):
+if (i<=1):
+return(1)
+else:
+return(fibo(i-1)+fibo(i-2))
+for i in range(0,n+1):
+print(fibo(i),end=" ")
+10)AIM:
+Write a program to find the biggest of three numbers using functions.
+CODE:
+a=int(input("Enter a number 1 :"))
+b=int(input("Enter a number 2 :"))
+c=int(input("Enter a number 3 :"))
+print("The biggest number is: ")
+if((a>b)&(a>c)):
+print(a)
+elif(b>c):
+print(b)
+else:
+print(c)
+11)AIM:
+Find if the entered number is Armstrong number or not 
+CODE:
+print("TO CHECK THE NUMBER IS EITHER AMSTRONG NUMBER OR NOT ")
+n=int(input("Enter a number : "))
+num,x,cube=n,0,0
+while(n>0):
+x=n%10
+cube=cube+(x*x*x)
+n=n//10
+if(num == cube):
+print("Given number is an amstrong number")
+else:
+print("Given number is not an amstrong number")
+
+EXPERIMENT-4:
+3)AIM:
+Accept list of 5 float numbers as a input from user using append() function
+PROGRAM:
+A=[]
+for i in range (0,5):
+i=float(input("Enter a float number : "))
+A.append(i)
+print(A)
+4)AIM:
+Given a list of numbers, return True if first and last number of a list is same
+PROGRAM:
+A=[10,20,40,50,20,10]
+print(A)
+a=A[0]==A[-1]
+print(a)
+5)AIM:
+Given a list of numbers, Iterate it and print only those numbers which are divisible of 5
+PROGRAM:
+A=[10,15,12,13,20,35,100,45,67,89,34]
+print("A=",A)
+print("Numbers divisible by 5 are :")
+for i in A:
+if (i%5==0):
+print(i,end=" ")
+6)AIM:
+Reverse the following list using for loop
+list1 = [10, 20, 30, 40, 50]
+PROGRAM:
+A=[1,2,3,4,5,6]
+print(A)
+for i in reversed(A):
+print (i,end=" ")
+7)AIM:
+create the following list and remove few elements from the list
+List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+PROGRAM:
+LIST=[1,2,3,4,5,6,7,8,9,10,1,12]
+print(LIST)
+LIST.remove(5)
+LIST.remove(1)
+print("list after removing elements")
+print(LIST)
+
+EXPERIMENT-5:
+1) AIM:
+To check if a string is palindrome or not.
+PROGRAM:
+text=input("Enter a word:")
+reverse=text[::-1]
+if(text==reverse):
+print("{0} is palindrome".format(text))
+else:
+print("{0} is not palindrome".format(text))
+2)AIM:
+Reverse words in a given String
+PROGRAM:
+text=input("Enter a word:")
+length=len(text)
+reverse=""
+for i in range(-1,-(length+1),-1):
+reverse=reverse+text[i]
+print(reverse)
+3)AIM:
+Ways to remove i’th character from string
+PROGRAM:
+text=input("Enter a word:")
+x=int(input("Enter the position of the character to be deleted:"))
+l=len(text)
+for i in range(l):
+if(i==x):
+continue
+print(text[i],end="")
+4)AIM:
+Check if a Substring is Present in a Given String
+PROGRAM:
+text=input("Enter a text:")
+search=input("enter the search text:")
+if(search in text ):
+print("{0} is in {1}".format(search,text))
+else:
+print("{0} is not in {1}".format(search,text))
+5)AIM:
+To accept the strings which contains all vowels
+PROGRAM:
+text=input("Enter a text:")
+v="aeiou"
+count=0
+for i in range(5):
+if(v[i] in text ):
+continue
+else:
+count+=1
+print("{0} is missing in {1}". format(v[i],text))
+if(count==0):
+print(text," contain all vowels in it.")
+6.AIM:
+Replace duplicate Occurrence in String
+PROGRAM:
+text=input("Enter a text:")
+l=len(text)
+new=text[0]
+for i in range(0,l-1):
+if(text[i] != text[i+1]):
+new+=text[i+1]
+print("TEXT WITHOUT REPEATING DUPLICATE\n\t",new)
+7)AIM:
+Check if a string contains any special character
+PROGRAM:
+text=input("Enter a text:")
+test=text.isalnum()
+if(test==True):
+print("It doesn\'t contain any special character")
+else:
+print("It contain some special character")
+8)AIM:
+Count the Number of matching characters in a pair of string
+PROGRAM:
+txt1=input("Enter a text 1 :")
+txt2=input("Enter a text 2 :")
+count=0
+for i in txt1:
+for j in txt2:
+if(i==j):
+count+=1
+print("These words have {0} matchimg characters".format(count))
+
+EXPERIMENT-6:
+1)AIM:
+To count the number of even and odd numbers from a series of numbers
+PROGRAM:
+num=int(input("Enter number of inputs to get:" ))
+lst=[]
+odd,eve=0,0
+for i in range(1,num+1):
+a=int(input("enter the input {}: ".format(i)))
+lst.append(a)
+if(a%2==0):
+eve=eve+1
+else:
+odd=odd+1
+print(lst)
+print("Number of even inputs: ",eve)
+print("Number of odd inputs: ",odd)
+2)AIM:
+Python program that prints each item and its corresponding type from the following list.
+lis=[1,2.5,"Sri","Krishna",True,False,1589,1625.0]
+PROGRAM:
+lis=[1,2.5,"Sri","Krishna",True,False,1589,1625.0]
+for i in lis:
+print("{}\t{}". format(i,type(i)))
+3)AIM:
+Program that prints all the numbers from 0 to 6 except 3 and 6. (use continue stmnt)
+PROGRAM:
+for i in range(0,7):
+if(i==3 or i==6 ):
+continue
+print(i,end=" ")
+4)AIM:
+Print the first 50 Fibonacci series.
+PROGRAM:
+x=0
+y=1
+for i in range(50):
+print(x,end=" , ")
+temp=x
+x=y
+y=x+temp
+
+EXPERIMENT-7:
+1)AIM:
+Factorial of a given number.
+PROGRAM:
+num=int(input("Enter a number to find the factorial: "))
+def facto(n):
+fact=1
+for i in range (1,n+1):
+fact=fact*i
+print("Fctorial of entered number is : ", fact)
+facto(num)
+2)AIM:
+Sum of numbers 
+PROGRAM:
+def sumofnum(n):
+sum=0
+for i in range(0,n+1):
+sum=sum+i
+print("Sum of given numbers is ",sum)
+num=int(input("Enter a number to sum : "))
+sumofnum(num)
+3)AIM:
+Fibonacci series
+PROGRAM:
+def fibo(i):
+if(i<=1):
+return(1)
+else:
+return (fibo(i-1)+fibo(i-2))
+n=int(input("Enter a number : "))
+for i in range(0,n+1):
+print(fibo(i),end=" ")
+4)AIM:
+Find the GCD of two numbers
+PROGRAM:
+def GCD(a,b):
+if(a<b):
+small=a
+else:
+small=b
+i=1
+while(i<=small):
+if(a%i==0 and b%i==0):
+Gcd=i
+i=i+1
+print("The GCD of two numbers is : ",Gcd)
+n1=int(input("Enter number 1 : " ))
+n2=int(input("Enter number 2 : " ))
+GCD(n1,n2)
+5)AIM:
+Find the power of numbers using recursion
+PROGRAM:
+def power(n,m):
+ans=n
+for i in range(1,m):
+ans=ans*n
+print("The power of the numbers is : " ,ans)
+a=int(input("enter the number :" ))
+b=int(input("enter the power : " ))
+power(a,b)
+6)AIM:
+find the average of unknown number of inputs in python 
+PROGRAM:
+inp=[]
+print("press 0 to exit")
+while True:
+ x=int(input("Enter input:"))
+ if x==0:
+ break
+ inp.append(x)
+print(inp)
+s=sum(inp)
+t=len(inp)
+avg=s/t
+print("The average of the numbers is :",avg)
+
+EXPERIMENT-8:
+ALL PROGRAMS IN EXPERIMENT-7 +
+7)AIM:
+Find the volume, surface area and space diagonals of a cuboid
+PROGRAM:
+l=int(input("Enter the lenght of cuboid: "))
+b=int(input("Enter the breadth of cuboid: "))
+h=int(input("Enter the height of cuboid: "))
+SA = 2 * (l*b + b*h + h*l)
+V= (l*b*h) 
+SD= ( l*2 + b2 + h2)*0.5
+print("SURFACE AREA : ",SA)
+print("VOLUME :",V)
+print("SPACE DIAGONAL :",SD)
+
+EXPERIMENT-9:
+1)AIM:
+Get input from user and create a list
+PROGRAM:
+n=int(input("Enter the no. of inputs:"))
+lst=[]
+for i in range(n):
+ a=int(input("Enter the inputs:"))
+ lst.append(a)
+print(lst)
+2)AIM:
+Get input from user and calculate the length of the list
+PROGRAM:
+n=int(input("Enter the no. of inputs:"))
+lst=[]
+for i in range(n):
+ a=int(input("Enter the inputs:"))
+ lst.append(a)
+print(lst)
+print("The length of the list : ",len(lst))
+3)AIM:
+Get input from user and calculate the sum and average of the list
+PROGRAM:
+n=int(input("Enter the no. of inputs:"))
+lst=[]
+for i in range(n):
+ a=int(input("Enter the inputs:"))
+ lst.append(a)
+print(lst)
+print("The average of the list:",sum(lst)/n)
+4)AIM:
+Using append() method add values to the list
+PROGRAM:
+lst=[1,3,5,76,8,1.3]
+print(lst)
+lst.append(4)
+lst.append(0.4)
+print(lst)
+5)AIM:
+Using insert() method add values to the list
+PROGRAM: 
+lst=[1,3,5,76,8,1.3]
+print(lst)
+lst.insert(4,78)
+lst.insert(2,8)
+print(lst)
+6)AIM:
+Using extend() method add values to the list
+PROGRAM:
+lst=[1,3,5,76,8,1.3]
+print(lst)
+lst.extend([1,6,99,0.3])
+print(lst)
+7)AIM:
+Using remove() method remove values from the list
+PROGRAM:
+lst=[1,3,5,76,8,1.3,8]
+print(lst)
+lst.remove(5)
+lst.remove(8)
+print(lst)
+8)AIM:
+Using pop() method remove values from the list
+PROGRAM:
+lst=[1,3,5,76,8,1.3,8]
+print(lst)
+lst.pop()
+lst.pop(2)
+print(lst)
+9)AIM:
+Perform positive and negative slicing in a list
+PROGRAM:
+lst=[1,2,3,4,5,6,7,8,9]
+print(lst)
+lst1=lst[::-1]
+lst2=lst[2:8]
+print(lst1)
+print(lst2)
+10)AIM:
+Program for matrix input from user (2*2 or 3*3 matrix)
+PROGRAM:
+R = int(input("Enter the number of rows:"))
+C = int(input("Enter the number of columns:"))
+matrix = []
+print("Enter the entries row wise:")
+for i in range(R):
+a =[]
+for j in range(C):
+a.append(int(input()))
+matrix.append(a)
+for i in range(R):
+for j in range(C):
+print(matrix[i][j], end = " ") print()
+11)AIM:
+Program to add two matrices using nested loops
+PROGRAM:
+X = [[1,2,3],[4 ,5,6],[7 ,8,9]]
+Y = [[2,1,0],[1,3,2],[4,6,3]]
+result = [[0,0,0],[0,0,0],[0,0,0]]
+for i in range(len(X)):
+for j in range(len(X[0])):
+result[i][j] = X[i][j] + Y[i][j]
+for r in result:
+print(r)
+
+EXPERIMENT-10:
+1)AIM:
+To Create a Dictionary
+PROGRAM:
+D={1:'one', 2:'two', 3:'three', 4:'four', 5:'five', 6:'six'}
+print(D)
+2)AIM:
+Adding elements to a Dictionary using update() method
+PROGRAM:
+D={1:'one', 2:'two', 3:'three', 4:'four', 5:'five', 6:'six'}
+print(D) 
+D1={7:'seven'}
+D.update(D1)
+print(D)
+3)AIM:
+Accessing elements from a Dictionary
+PROGRAM:
+D={1:'one', 2:'two', 3:'three', 4:'four', 5:'five', 6:'six'}
+print(D) 
+print(D[1])
+print(D[4])
+4)AIM:
+Removing Elements from Dictionary
+(a) Using del keyword
+(b) Using pop() method
+(c) Using clear() method
+PROGRAM: 
+D={1:'one', 2:'two', 3:'three', 4:'four', 5:'five', 6:'six'}
+print(D) 
+del D[2]
+print(D)
+D.pop(5)
+print(D)
+D.clear()
+5)AIM:
+Create a txt file called demo.txt which contains the following data:
+150.00 50.00
+270.00 20.00
+PROGRAM:
+f=open("demo.txt",'w')
+f.write("150.00 50.00 \n 270.00 20.00")
+f1=open("demo.txt",'r')
+6)AIM:
+Copy the contents of the above file(demo.txt) to demo1.txt
+PROGRAM:
+f=open("demo.txt",'w')
+f.write("150.00 50.00 \n 270.00 20.00")
+f1=open("demo.txt",'r')
+7)AIM:
+Update the below contents in demo1.txt
+450.00 25.00
+280.00 20.00
+PROGRAM:
+f1=open("demo1.txt",'w')
+f1.write("450.00 25.00 \n 280.00 20.00")
+f1.close
+8)AIM:
+Count the number of words and the number of lines in both the files
+PROGRAM:
+d=open("demo.txt",'r')
+d1=open("demo1.txt",'r')
+x=d.read()
+y=d1.read()
+len,len1,w,w1=0,0,0,0
+for i in x.split('\n'):
+len+=1
+for i in y.split('\n'):
+len1+=1
+print("No.of lines in demo is {} \n No.of lines in demo1 is {}".format(len,len1))
+for i in x.split():
+w+=1
+for i in y.split():
+w1+=1
+print("No.of words in demo is {} \n No.of words in demo1 is {}".format(w,w1))
+d.close()
+d1.close()
+9)AIM:
+Merge both the les as demo2.txtd 
+PROGRAM:
+d=open("demo.txt",'r')
+d1=open("demo1.txt",'r')
+d2=open("demo2.txt",'w')
+x=d.read()
+y=d1.read()
+d2.write(x+'\n'+y)
+d.close()
+d1.close()
